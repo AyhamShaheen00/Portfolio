@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <title>portfolio_page</title>
+    <link rel="stylesheet" href="css/css-page.css">
+</head>
+
+<body>
+    <!-- nav bar ------------------->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- home section ------------->
+    <section id="home">
+        <div class="main">
+            <h1 class="heading">
+                I AM <br> AYHAM SHAHEEN
+            </h1>
+        </div>
+    </section>
+    <!-- about section ------------>
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="about_me-img.jpg" alt="">
+            <div id="intro">
+                <h2>AYHAM SHAHEEN</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque quaerat et
+                    necessitatibus amet vel iusto porro aliquam consequuntur, sunt sit ea maiores exercitationem? Ipsam
+                    laboriosam iusto quisquam architecto sed itaque nesciunt maxime, veritatis laudantium earum porro
+                    quaerat eveniet, ea accusamus voluptates perspiciatis repellat fugiat temporibus, facere natus!
+                    Error inventore reprehenderit repudiandae voluptatem voluptates eligendi beatae placeat voluptatum
+                    dolorum consequuntur eius a, numquam rerum temporibus facilis iste quia ipsam officia ea in
+                    veritatis, distinctio quam! Aperiam distinctio maiores illo sit omnis eligendi dolores. Laborum
+                    doloribus minus consectetur consequatur facilis! Fugit vero ipsum deleniti qui rem aliquam
+                    voluptatum sunt facilis voluptate!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section ---------->
+    <section id="gallery">
+        <h1 class="heading">GALLERY</h1>
+        <div class="gallery_img">
+            <img src="ser_img1.jpg" alt="">
+            <img src="ser_img2.jpg" alt="">
+            <img src="ser_img3.jpg" alt="">
+            <img src="ser_img4.jpg" alt="">
+            <img src="ser_img5.jpg" alt="">
+            <img src="ser_img6.jpg" alt="">
+        </div>
+    </section>
+    <!-- services section --------->
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="web-design.png" alt="">
+                <h1 class="heading">Website Designer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fugiat quos, cupiditate accusamus
+                    nisi recusandae nobis quaerat perferendis, alias corporis voluptates.</p>
+            </div>
+            <div class="box">
+                <img src="android.png" alt="">
+                <h1 class="heading">Android programmer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fugiat quos, cupiditate accusamus
+                    nisi recusandae nobis quaerat perferendis, alias corporis voluptates.</p>
+            </div>
+            <div class="box">
+                <img src="code.png" alt="">
+                <h1 class="heading">Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fugiat quos, cupiditate accusamus
+                    nisi recusandae nobis quaerat perferendis, alias corporis voluptates.</p>
+            </div>
+        </div>
+    </section>
+    <!-- reviwes section ---------->
+    <section id="reviews">
+        <h1 class="heading">REVIEWS</h1>
+        <div class="row1">
+            <div class="box1">
+                <img src="man1.png" alt="">
+                <h1 class="heading">Oliver Jake</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fugiat quos, cupiditate accusamus
+                    nisi recusandae nobis quaerat perferendis, alias corporis voluptates.</p>
+            </div>
+            <div class="box1">
+                <img src="woman.png" alt="">
+                <h1 class="heading">Ava Megan</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fugiat quos, cupiditate accusamus
+                    nisi recusandae nobis quaerat perferendis, alias corporis voluptates.</p>
+            </div>
+            <div class="box1">
+                <img src="man2.png" alt="">
+                <h1 class="heading">Thomas Joe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fugiat quos, cupiditate accusamus
+                    nisi recusandae nobis quaerat perferendis, alias corporis voluptates.</p>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- footer bar -------------->
+    <footer id="contact">
+        <!-- <h1 class="headings">Contact</h1> -->
+        <div id="inner-footer">
+            <div id="social-link">
+                <ul>
+                    <li id="social-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li id="social-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li id="social-item"><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+                    <li id="social-item"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li id="social-item"><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
